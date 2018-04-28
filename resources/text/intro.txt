@@ -1,24 +1,13 @@
-                        (
-                          )     (
-                   ___...(-------)-....___
-               .-""       )    (          ""-.
-         .-'``'|-._             )         _.-|
-        /  .--.|   `""---...........---""`   |
-       /  /    |                             |
-       |  |    | @MudInfo?NAME@
-        \  \   |                             |
-         `\ `\ | Powered By CoffeeMud v5.9   |
-           `\ `| (C) 2000-2018 Bo Zimmerman  |
-           _/ /\ www.coffeemud.org           /
-          (__/  \  This file is:            /
-       _..---""` \ resources/text/intro.txt/`""---.._
-    .-'           \                       /          '-.
-   :               `-.__             __.-'              :
-   :                  ) ""---...---"" (                 :
-    '._               `"--...___...--"`              _.'
-  jgs \""--..__                              __..--""/
-       '._     """----.....______.....----"""     _.'
-          `""--..,,_____            _____,,..--""`
-                        `"""----"""`
+  _    _        _  _  _            _      _              
+ | |  | |      | || || |          (_)    | |             
+ | |__| |  ___ | || || |__   _ __  _   __| |  __ _   ___ 
+ |  __  | / _ \| || || '_ \ | '__|| | / _` | / _` | / _ \
+ | |  | ||  __/| || || |_) || |   | || (_| || (_| ||  __/
+ |_|  |_| \___||_||_||_.__/ |_|   |_| \__,_| \__, | \___|
+                                              __/ |      
+            Hellbridge.com                   |___/       
+            Powered by CoffeeMud v5.9
+            "First you have to find the bridge.
+             Then you have to cross it."
 
-Welcome to @MudInfo?NAME@
+Welcome to @MudInfo?NAME@, Loaded instance is @MudInfo?HBINSTANCE@

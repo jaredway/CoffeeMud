@@ -34,7 +34,7 @@ echo "Alright, we're good to go, compiling will begin in 5 seconds."
 sleep 5
 #Next we will set up some needed variables for compiling.... and then run an if statement
 
-JAVACPATH="$Java_Home/bin/javac -nowarn -g -deprecation -encoding UTF8 -classpath .:./lib/js.jar:./lib/jzlib.jar" 
+JAVACPATH="$Java_Home/bin/javac -nowarn -g -deprecation -encoding UTF8 -classpath .:./lib/js.jar:./lib/jzlib.jar:./lib/mysql-connector-java-5.1.46-bin.jar:./lib/postgresql-42.2.2.jar" 
 
 if [ $yesnodocs = y ] ; then
 
@@ -147,7 +147,7 @@ echo "#You should really input a name for your MUD below...." >> mudUNIX.sh
 echo "#Before using this on a UNIX machine, you must 'chmod 755 mudUNIX.sh' to make this file executable by the UNIX machine" >> mudUNIX.sh
 echo "#FYI - the nohup command will make a nohup.out file, usually in the CofferMud (directory where you start this from) directory - it will log the server messages..." >> mudUNIX.sh
 echo "" >> mudUNIX.sh
-echo "nohup $Java_Home/bin/java -classpath \".:./lib/js.jar:./lib/jzlib.jar\" -Xms129m -Xmx256m com.planet_ink.coffee_mud.application.MUD \"$MUDname\" &" >> mudUNIX.sh
+echo "nohup $Java_Home/bin/java -classpath \".:./lib/js.jar:./lib/jzlib.jar:./lib/mysql-connector-java-5.1.46-bin.jar:./lib/postgresql-42.2.2.jar\" -Xms129m -Xmx256m com.planet_ink.coffee_mud.application.MUD \"$MUDname\" &" >> mudUNIX.sh
 chmod 755 mudUNIX.sh
 echo "Your mudUNIX.sh script has been written."
 echo "To change memory or other settings, you must MANUALLY edit mudUNIX.sh after every time you run this script."

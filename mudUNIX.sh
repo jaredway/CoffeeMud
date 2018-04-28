@@ -2,4 +2,4 @@
 #Before using this on a UNIX machine, you must 'chmod 755 mudUNIX.sh' to make this file executable by the UNIX machine
 #FYI - the nohup command will make a nohup.out file, usually in the CofferMud (directory where you start this from) directory - it will log the server messages...
 
-nohup java -classpath ".:./lib/js.jar:./lib/jzlib.jar" -Djava.awt.headless=true -Xms65535000 -Xmx115535000 com.planet_ink.coffee_mud.application.MUD "Your Muds Name Here" &
+nohup /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -classpath ".:./lib/js.jar:./lib/jzlib.jar:./lib/mysql-connector-java-5.1.46-bin.jar:./lib/postgresql-42.2.2.jar" -Xms129m -Xmx256m com.planet_ink.coffee_mud.application.MUD "Hellbridge" &
